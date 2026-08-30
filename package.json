@@ -1,0 +1,25 @@
+{
+  "name": "zyy-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp Template dengan Baileys - Siap Develop",
+  "main": "bot-whatsapp-template.js",
+  "scripts": {
+    "start": "node bot-whatsapp-template.js",
+    "dev": "nodemon bot-whatsapp-template.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "automation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.4.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
